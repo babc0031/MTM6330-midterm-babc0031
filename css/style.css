@@ -1,3 +1,8 @@
+.clearfix::after {
+  content: ' ';
+  display: block;
+  clear: both; }
+
 /* Base */
 body, html {
   color: #333;
@@ -97,10 +102,10 @@ h1, h2, h3, h4 {
   justify-content: flex-start;
   align-items: center; }
 
-.header-logo {
+.header-button {
+  padding: 100px;
   color: #000;
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2rem;
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
@@ -140,4 +145,5 @@ h1, h2, h3, h4 {
 .p {
   margin-bottom: 15px;
   font-size: 1.5em;
-  text-align: center; }
+  margin-left: 10%;
+  margin-right: 10%; }
